@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0195102020AB6C45006D5BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0195101F20AB6C45006D5BBB /* AppDelegate.swift */; };
-		0195102220AB6C45006D5BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0195102120AB6C45006D5BBB /* ViewController.swift */; };
-		0195102520AB6C45006D5BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0195102320AB6C45006D5BBB /* Main.storyboard */; };
+		0174CF9020AB6C9A00B909FF /* MDVTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0195103620AB6C59006D5BBB /* MDVTabBarController.framework */; };
+		0174CF9120AB6C9A00B909FF /* MDVTabBarController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0195103620AB6C59006D5BBB /* MDVTabBarController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0174CFB720AB6F1600B909FF /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFB220AB6F1500B909FF /* ViewControllerOne.swift */; };
+		0174CFB820AB6F1600B909FF /* ExampleTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFB320AB6F1500B909FF /* ExampleTabBarController.swift */; };
+		0174CFB920AB6F1600B909FF /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFB420AB6F1500B909FF /* ViewControllerFour.swift */; };
+		0174CFBA20AB6F1600B909FF /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFB520AB6F1500B909FF /* ViewControllerTwo.swift */; };
+		0174CFBB20AB6F1600B909FF /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFB620AB6F1600B909FF /* ViewControllerThree.swift */; };
+		0174CFBD20AB6F2B00B909FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFBC20AB6F2B00B909FF /* AppDelegate.swift */; };
 		0195102720AB6C46006D5BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0195102620AB6C46006D5BBB /* Assets.xcassets */; };
 		0195102A20AB6C46006D5BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0195102820AB6C46006D5BBB /* LaunchScreen.storyboard */; };
+		BAF1AFCDEB19B3C5B2D10D0D /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD076F9D20AFC6F682C331EA /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0174CF9220AB6C9A00B909FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0195103120AB6C59006D5BBB /* MDVTabBarController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 01950FE920AB6BE2006D5BBB;
+			remoteInfo = MDVTabBarController;
+		};
+		0195103520AB6C59006D5BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0195103120AB6C59006D5BBB /* MDVTabBarController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 01950FEA20AB6BE2006D5BBB;
+			remoteInfo = MDVTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0174CF9420AB6C9A00B909FF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0174CF9120AB6C9A00B909FF /* MDVTabBarController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0174CFB220AB6F1500B909FF /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		0174CFB320AB6F1500B909FF /* ExampleTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTabBarController.swift; sourceTree = "<group>"; };
+		0174CFB420AB6F1500B909FF /* ViewControllerFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
+		0174CFB520AB6F1500B909FF /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		0174CFB620AB6F1600B909FF /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+		0174CFBC20AB6F2B00B909FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0195101C20AB6C45006D5BBB /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0195101F20AB6C45006D5BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0195102120AB6C45006D5BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0195102420AB6C45006D5BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0195102620AB6C46006D5BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0195102920AB6C46006D5BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0195102B20AB6C46006D5BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0195103120AB6C59006D5BBB /* MDVTabBarController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MDVTabBarController.xcodeproj; path = ../MDVTabBarController.xcodeproj; sourceTree = "<group>"; };
+		7E11FB558F5113D5433EBBF6 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		BD076F9D20AFC6F682C331EA /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C7F879DA8410409A9EDFC0 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0174CF9020AB6C9A00B909FF /* MDVTabBarController.framework in Frameworks */,
+				BAF1AFCDEB19B3C5B2D10D0D /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0174CFB020AB6EE200B909FF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0174CFBC20AB6F2B00B909FF /* AppDelegate.swift */,
+				0195102820AB6C46006D5BBB /* LaunchScreen.storyboard */,
+				0195102B20AB6C46006D5BBB /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0174CFB120AB6EF600B909FF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0174CFB320AB6F1500B909FF /* ExampleTabBarController.swift */,
+				0174CFB220AB6F1500B909FF /* ViewControllerOne.swift */,
+				0174CFB520AB6F1500B909FF /* ViewControllerTwo.swift */,
+				0174CFB620AB6F1600B909FF /* ViewControllerThree.swift */,
+				0174CFB420AB6F1500B909FF /* ViewControllerFour.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		0195101320AB6C45006D5BBB = {
 			isa = PBXGroup;
 			children = (
 				0195101E20AB6C45006D5BBB /* Example */,
 				0195101D20AB6C45006D5BBB /* Products */,
+				81CDB885E8A6EE7C4BF9A4E8 /* Pods */,
+				8B697D68C49EA7D91F0B7636 /* Frameworks */,
+				0195103120AB6C59006D5BBB /* MDVTabBarController.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +125,36 @@
 		0195101E20AB6C45006D5BBB /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				0195101F20AB6C45006D5BBB /* AppDelegate.swift */,
-				0195102120AB6C45006D5BBB /* ViewController.swift */,
-				0195102320AB6C45006D5BBB /* Main.storyboard */,
+				0174CFB020AB6EE200B909FF /* Application */,
+				0174CFB120AB6EF600B909FF /* Source */,
 				0195102620AB6C46006D5BBB /* Assets.xcassets */,
-				0195102820AB6C46006D5BBB /* LaunchScreen.storyboard */,
-				0195102B20AB6C46006D5BBB /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		0195103220AB6C59006D5BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0195103620AB6C59006D5BBB /* MDVTabBarController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CDB885E8A6EE7C4BF9A4E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0C7F879DA8410409A9EDFC0 /* Pods-Example.debug.xcconfig */,
+				7E11FB558F5113D5433EBBF6 /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B697D68C49EA7D91F0B7636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD076F9D20AFC6F682C331EA /* Pods_Example.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,13 +164,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0195102E20AB6C46006D5BBB /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				56BE9FD2A8D6E8A9C304F461 /* [CP] Check Pods Manifest.lock */,
 				0195101820AB6C45006D5BBB /* Sources */,
 				0195101920AB6C45006D5BBB /* Frameworks */,
 				0195101A20AB6C45006D5BBB /* Resources */,
+				0174CF9420AB6C9A00B909FF /* Embed Frameworks */,
+				6AF763A57160545BBD164E32 /* [CP] Embed Pods Frameworks */,
+				D9B418B151A88EC085D39372 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0174CF9320AB6C9A00B909FF /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -110,12 +208,28 @@
 			mainGroup = 0195101320AB6C45006D5BBB;
 			productRefGroup = 0195101D20AB6C45006D5BBB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0195103220AB6C59006D5BBB /* Products */;
+					ProjectRef = 0195103120AB6C59006D5BBB /* MDVTabBarController.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0195101B20AB6C45006D5BBB /* Example */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0195103620AB6C59006D5BBB /* MDVTabBarController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MDVTabBarController.framework;
+			remoteRef = 0195103520AB6C59006D5BBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0195101A20AB6C45006D5BBB /* Resources */ = {
@@ -124,33 +238,90 @@
 			files = (
 				0195102A20AB6C46006D5BBB /* LaunchScreen.storyboard in Resources */,
 				0195102720AB6C46006D5BBB /* Assets.xcassets in Resources */,
-				0195102520AB6C45006D5BBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56BE9FD2A8D6E8A9C304F461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF763A57160545BBD164E32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B418B151A88EC085D39372 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0195101820AB6C45006D5BBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0195102220AB6C45006D5BBB /* ViewController.swift in Sources */,
-				0195102020AB6C45006D5BBB /* AppDelegate.swift in Sources */,
+				0174CFBD20AB6F2B00B909FF /* AppDelegate.swift in Sources */,
+				0174CFBA20AB6F1600B909FF /* ViewControllerTwo.swift in Sources */,
+				0174CFBB20AB6F1600B909FF /* ViewControllerThree.swift in Sources */,
+				0174CFB820AB6F1600B909FF /* ExampleTabBarController.swift in Sources */,
+				0174CFB920AB6F1600B909FF /* ViewControllerFour.swift in Sources */,
+				0174CFB720AB6F1600B909FF /* ViewControllerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0195102320AB6C45006D5BBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0195102420AB6C45006D5BBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0174CF9320AB6C9A00B909FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDVTabBarController;
+			targetProxy = 0174CF9220AB6C9A00B909FF /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		0195102820AB6C46006D5BBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,11 +449,12 @@
 		};
 		0195102F20AB6C46006D5BBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C7F879DA8410409A9EDFC0 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B534EWRJTS;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +468,12 @@
 		};
 		0195103020AB6C46006D5BBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E11FB558F5113D5433EBBF6 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B534EWRJTS;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

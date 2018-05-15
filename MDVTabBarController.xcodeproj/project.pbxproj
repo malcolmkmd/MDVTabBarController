@@ -7,10 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0174CF9F20AB6E6300B909FF /* MDVTabBarDataSource+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CF9A20AB6E6200B909FF /* MDVTabBarDataSource+Delegate.swift */; };
+		0174CFA020AB6E6300B909FF /* MDVTabBarControllerDataSource+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CF9B20AB6E6200B909FF /* MDVTabBarControllerDataSource+Delegate.swift */; };
+		0174CFA120AB6E6300B909FF /* MDVTabbableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CF9C20AB6E6200B909FF /* MDVTabbableViewController.swift */; };
+		0174CFA220AB6E6300B909FF /* MDVTabBarAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CF9D20AB6E6200B909FF /* MDVTabBarAnimatable.swift */; };
+		0174CFA320AB6E6300B909FF /* MDVTabBarItemable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CF9E20AB6E6200B909FF /* MDVTabBarItemable.swift */; };
+		0174CFA720AB6E7200B909FF /* MDVSlidingOverlayAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFA420AB6E7200B909FF /* MDVSlidingOverlayAnimator.swift */; };
+		0174CFA820AB6E7200B909FF /* MDVUnderlineAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFA520AB6E7200B909FF /* MDVUnderlineAnimator.swift */; };
+		0174CFA920AB6E7200B909FF /* MDVZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFA620AB6E7200B909FF /* MDVZoomAnimator.swift */; };
+		0174CFAD20AB6E7C00B909FF /* MDVTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFAA20AB6E7C00B909FF /* MDVTabBarItem.swift */; };
+		0174CFAE20AB6E7C00B909FF /* MDVTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFAB20AB6E7C00B909FF /* MDVTabBar.swift */; };
+		0174CFAF20AB6E7C00B909FF /* MDVTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174CFAC20AB6E7C00B909FF /* MDVTabBarController.swift */; };
 		01950FEF20AB6BE2006D5BBB /* MDVTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01950FED20AB6BE2006D5BBB /* MDVTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0174CF9A20AB6E6200B909FF /* MDVTabBarDataSource+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MDVTabBarDataSource+Delegate.swift"; sourceTree = "<group>"; };
+		0174CF9B20AB6E6200B909FF /* MDVTabBarControllerDataSource+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MDVTabBarControllerDataSource+Delegate.swift"; sourceTree = "<group>"; };
+		0174CF9C20AB6E6200B909FF /* MDVTabbableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabbableViewController.swift; sourceTree = "<group>"; };
+		0174CF9D20AB6E6200B909FF /* MDVTabBarAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabBarAnimatable.swift; sourceTree = "<group>"; };
+		0174CF9E20AB6E6200B909FF /* MDVTabBarItemable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabBarItemable.swift; sourceTree = "<group>"; };
+		0174CFA420AB6E7200B909FF /* MDVSlidingOverlayAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVSlidingOverlayAnimator.swift; sourceTree = "<group>"; };
+		0174CFA520AB6E7200B909FF /* MDVUnderlineAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVUnderlineAnimator.swift; sourceTree = "<group>"; };
+		0174CFA620AB6E7200B909FF /* MDVZoomAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVZoomAnimator.swift; sourceTree = "<group>"; };
+		0174CFAA20AB6E7C00B909FF /* MDVTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabBarItem.swift; sourceTree = "<group>"; };
+		0174CFAB20AB6E7C00B909FF /* MDVTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabBar.swift; sourceTree = "<group>"; };
+		0174CFAC20AB6E7C00B909FF /* MDVTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabBarController.swift; sourceTree = "<group>"; };
 		01950FEA20AB6BE2006D5BBB /* MDVTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDVTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01950FED20AB6BE2006D5BBB /* MDVTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDVTabBarController.h; sourceTree = "<group>"; };
 		01950FEE20AB6BE2006D5BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +49,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0174CF9620AB6E2000B909FF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0174CF9820AB6E2C00B909FF /* MDVTabBar */,
+				0174CF9720AB6E2500B909FF /* Protocol */,
+				0174CF9920AB6E4100B909FF /* Animator */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0174CF9720AB6E2500B909FF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0174CF9C20AB6E6200B909FF /* MDVTabbableViewController.swift */,
+				0174CF9D20AB6E6200B909FF /* MDVTabBarAnimatable.swift */,
+				0174CF9B20AB6E6200B909FF /* MDVTabBarControllerDataSource+Delegate.swift */,
+				0174CF9A20AB6E6200B909FF /* MDVTabBarDataSource+Delegate.swift */,
+				0174CF9E20AB6E6200B909FF /* MDVTabBarItemable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0174CF9820AB6E2C00B909FF /* MDVTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0174CFAC20AB6E7C00B909FF /* MDVTabBarController.swift */,
+				0174CFAB20AB6E7C00B909FF /* MDVTabBar.swift */,
+				0174CFAA20AB6E7C00B909FF /* MDVTabBarItem.swift */,
+			);
+			path = MDVTabBar;
+			sourceTree = "<group>";
+		};
+		0174CF9920AB6E4100B909FF /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				0174CFA420AB6E7200B909FF /* MDVSlidingOverlayAnimator.swift */,
+				0174CFA520AB6E7200B909FF /* MDVUnderlineAnimator.swift */,
+				0174CFA620AB6E7200B909FF /* MDVZoomAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
 		01950FE020AB6BE2006D5BBB = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +110,7 @@
 		01950FEC20AB6BE2006D5BBB /* MDVTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				0174CF9620AB6E2000B909FF /* Source */,
 				01950FED20AB6BE2006D5BBB /* MDVTabBarController.h */,
 				01950FEE20AB6BE2006D5BBB /* Info.plist */,
 			);
@@ -95,6 +160,7 @@
 				TargetAttributes = {
 					01950FE920AB6BE2006D5BBB = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -130,6 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0174CF9F20AB6E6300B909FF /* MDVTabBarDataSource+Delegate.swift in Sources */,
+				0174CFAD20AB6E7C00B909FF /* MDVTabBarItem.swift in Sources */,
+				0174CFA220AB6E6300B909FF /* MDVTabBarAnimatable.swift in Sources */,
+				0174CFA320AB6E6300B909FF /* MDVTabBarItemable.swift in Sources */,
+				0174CFA020AB6E6300B909FF /* MDVTabBarControllerDataSource+Delegate.swift in Sources */,
+				0174CFA720AB6E7200B909FF /* MDVSlidingOverlayAnimator.swift in Sources */,
+				0174CFA120AB6E6300B909FF /* MDVTabbableViewController.swift in Sources */,
+				0174CFAE20AB6E7C00B909FF /* MDVTabBar.swift in Sources */,
+				0174CFAF20AB6E7C00B909FF /* MDVTabBarController.swift in Sources */,
+				0174CFA820AB6E7200B909FF /* MDVUnderlineAnimator.swift in Sources */,
+				0174CFA920AB6E7200B909FF /* MDVZoomAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +336,7 @@
 		01950FF320AB6BE2006D5BBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.MDVTabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +363,7 @@
 		01950FF420AB6BE2006D5BBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
